@@ -1,0 +1,20 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Private learner context (Claude Code loads it locally)
+CLAUDE.local.md
+
+# Your own write-ups and scans of paper work stay local
+notes/*
+!notes/README.md
+
+# Editor / OS clutter
+.DS_Store
+.vscode/
+.idea/
+*.swp
