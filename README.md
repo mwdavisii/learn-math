@@ -45,6 +45,8 @@ Go from high-school precalc to reading ML papers, including their theorems and p
 
 Then run `.venv/bin/jupyter lab`.
 
+Or just run `./start.sh`: it creates the venv if missing, shows your next session and file plus the Stuck list, then opens Jupyter Lab. `./start.sh status` shows the status without opening Jupyter.
+
 Note: on this machine, create the venv with the system Python (`/usr/bin/python3`); the Nix python breaks numpy. Elsewhere, `python -m venv .venv` is fine.
 
 ## Resources
